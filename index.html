@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>Sắp xếp mảng</title>
+		<script>
+			// Giả sử có n = 8 thẻ, như vậy ta cần một mảng có 4 phần tử được lặp lại 2 lần
+			cards = [];
+			for (let i = 1; i <= 2; i++) {
+				for (let j = 1; j <= 4; j++) {
+					cards.push(j);
+				}
+			}
+			console.log(cards);
+			cards.sort(() => Math.random() - 0.5)
+			console.log(cards);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
